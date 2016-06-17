@@ -289,7 +289,7 @@
 	}
 
 	.row > * {
-		padding: 0 0 0 2em;
+		/* padding: 0 0 0 2em; */
 	}
 
 	.row {
@@ -502,7 +502,7 @@
 	@media screen and (max-width: 1680px) {
 
 		.row > * {
-			padding: 0 0 0 2em;
+			/* padding: 0 0 0 2em; */
 		}
 
 		.row {
@@ -2299,6 +2299,7 @@
 		.image img {
 			/* border-radius: 5px; */
 			display: block;
+			width: 100%;
 		}
 
 		.image.left {
@@ -3481,4 +3482,8 @@
 	#create-changing{
 		display: inline-block;
 		width: 50%;
+	}
+	#create-list{
+		width: 50%;
+		float: right;
 	}
