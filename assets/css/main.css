@@ -3435,9 +3435,8 @@
 	==========================*/
 	.pointer:hover{
 		cursor: pointer;
-		opacity: 0.7;
 	}
-	.pointer.chosen:hover{
+	.pointer.not-chosen:hover{
 		opacity: 1;
 	}
 
@@ -3486,4 +3485,28 @@
 	#create-list{
 		width: 50%;
 		float: right;
+	}
+	#option-list{
+		width: 10em;
+		margin: 0 auto;
+		margin-top: 1em;
+		text-indent: 1.5em;
+		border: none;
+		background-color: #52544f;
+		color: #ffffff;
+	}
+	#option-list option{
+		text-indent: 1.5em;
+		padding-top: 3em;
+		padding-bottom: 1em;
+	}
+	.create-desc{
+		color: #52544f;
+		font-weight: 500;
+		position: absolute;
+		z-index: 100;
+		padding-left: 1em;
+	}
+	.not-chosen{
+		opacity: 0.5;
 	}
