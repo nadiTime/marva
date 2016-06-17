@@ -43,6 +43,22 @@
 		// Scrolly.
 			$('.scrolly').scrolly();
 
+			var i = 0;
+		    var pics = [ "images/create-changing2.jpg", "images/create-changing3.jpg","images/create-changing1.jpg" ];
+		    function toggle() {
+		    	$("#create-changing").fadeOut(500,function(){
+		    		$("#changingImg").attr('src',pics[i]);
+		    	});
+		        $("#create-changing").fadeIn(500,function(){
+		        	
+		        });
+		        i+=1;
+		        if(i==3){
+		        	i=0;
+		        }
+		    }
+		    setInterval(toggle, 5000);
+
 	});
 
 })(jQuery);

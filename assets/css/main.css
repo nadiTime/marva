@@ -3477,3 +3477,8 @@
 	#hetel-list img{
 		width:100%;
 	}
+
+	#create-changing{
+		display: inline-block;
+		width: 50%;
+	}
