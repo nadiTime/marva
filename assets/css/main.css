@@ -3514,7 +3514,7 @@
 		overflow: hidden;
 	}
 	#footer{
-		background-color: #717672;
+		background-color: #c5ccd7;
 		height: 30vw;
 		overflow: hidden;
 	}
@@ -3525,8 +3525,4 @@
 	#footer p{
 		font-size: 2em;
 		margin: 1em;
-	}
-	#footer h1{
-		font-size: 2em;
-		font-weight: 700;
 	}
